@@ -10,8 +10,7 @@ def main():
         else:
             print(f"Results for '{case}' directory:")
         results = get_files_info("calculator", case)
-        for result in results:
-            print(f"  {result}")
+        print(f"{results}")
 
 
 if __name__ == "__main__":
