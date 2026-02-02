@@ -1,4 +1,3 @@
-from ntpath import abspath
 import os
 
 
